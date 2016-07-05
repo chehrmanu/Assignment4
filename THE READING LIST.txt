@@ -1,0 +1,47 @@
+
+
+// THE READING LIST
+/*
+//array of objects:
+var books = [
+	book1 = {
+		'title': 'Harry Potter and the Cursed Child',
+		'author': 'J. K. Rowling',
+		'read': true
+	},
+	book2 = {
+		
+		'title': 'Night',
+		'author': 'Elie Wiesel',
+		'read': true
+	},
+	book3 = {
+		'title': 'The Night Trilogy: Night, Dawn',
+		'author': 'Elie Wiesel',
+		'read': false
+	},
+	book4 = {
+		'title': 'The Black Widow',
+		'author': 'Daniel Silv',
+		'read': false
+	},
+	book5 = {
+		'title': 'Gone Girl',
+		'author': 'Gillian Flynn',
+		'read': false
+	}
+];
+function readBooks() {
+	var result = '';
+	
+	for (var i = 0; i < books.length; i++ ) {
+		if (books[i].read === true) {
+			return  'You already read ' + books[i].title + ' by ' + books[i].author + '.';
+		} else {
+			return  'You still need to read ' + books[i].title + ' by ' + books[i].author + '.';
+		}
+	
+	}
+}
+console.log(readBooks());
+

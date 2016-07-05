@@ -1,0 +1,26 @@
+//Create recipe object
+
+/*
+
+var myFavRecipe = new Object;
+myFavRecipe.strTitle = "Guacamole";
+myFavRecipe.numServings = 4;
+myFavRecipe.arrIngredients = [
+   "3 Avacados"               ,
+   "1 Lime"                   , 
+   "1 Teaspoon Salt"          , 
+   "1/2 Cup Onion"            , 
+   "3 Tablespoons Cilantro",
+   "2 Diced Tomatoes"         , 
+   "1 Teaspoon Garlic"        , 
+   "1 Pinch Ground Pepper"    
+];
+myFavRecipe.showRecipe = function(){
+   window.console.log("Title: " + this.strTitle);
+   window.console.log("Serves: "+ this.numServings);
+   window.console.log("Ingredients:");
+   for (var i = 0; i < this.arrIngredients.length; i++){
+      window.console.log("- " + this.arrIngredients[i]);
+   }
+}
+myFavRecipe.showRecipe();
